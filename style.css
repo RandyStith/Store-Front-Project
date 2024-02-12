@@ -37,7 +37,7 @@ ul {
 
   .nav {
     margin-top: 20px;
-    padding-right: 75px;
+    padding-right: 50px;
   }
   .topnav {
     overflow: hidden;
@@ -105,4 +105,12 @@ ul {
     .topnav input[type=text] {
       border: 1px solid #ccc;  
     }
+  }
+
+  .invert {
+    filter: invert(100);
+  }
+
+  .mouse :hover {
+    cursor: pointer;
   }
