@@ -114,3 +114,11 @@ ul {
   .mouse :hover {
     cursor: pointer;
   }
+
+  .foot {
+    background-color: #ff3d3d;
+  }
+
+  .footoot {
+    background-color: #D63333;
+  }
