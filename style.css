@@ -19,7 +19,6 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
   li a:hover:not(.active) {
     cursor: default;
     color: white;
@@ -27,6 +26,17 @@ ul {
   
   .active {
     background-color: #D63333;
+    padding: 1vw 1vw 1vw 1vw;
+  }
+  
+  li a:hover:not(.active1) {
+    cursor: default;
+    color: white;
+  }
+  
+  .active1 {
+    background-color: #D63333;
+    padding-bottom: 20%;
   }
 
   .jura {
@@ -122,3 +132,43 @@ ul {
   .footoot {
     background-color: #D63333;
   }
+
+  .cart {
+    font-size: 400%;
+    text-align:center;
+    border-bottom: 2px solid grey;
+  }
+  .carti {
+    font-size: 200%;
+    text-align:center;
+    border-bottom: 2px solid grey;
+  }
+  .carto {
+    font-size: 250%;
+    text-align:center;
+ }
+
+ .button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 34%;
+  border-radius: 5px;
+ }
+
+ .button3 {
+  background-color: #ff3d3d; 
+  color: white; 
+  border: 2px solid #ff3d3d;
+}
+.button3:hover {
+  background-color: #D63333;
+  color: white;
+}
