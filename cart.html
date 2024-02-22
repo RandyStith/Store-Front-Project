@@ -15,7 +15,7 @@
 
 </head> 
 
-<body> 
+<body style="background-color: #ffa3a3;"> 
 
     <ul>
         <li><a href="index.html" style="font-size: 300%;"><span style="font-family: Jacques Francois;">RJS</span><span class="jura"> Sports</span></a></li>
@@ -33,29 +33,115 @@
         <li class="mouse" style="float:right"><a style="font-size: 150%;" class="nav jura" href="equipment.html">Equipment</a></li>
       </ul>
       
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-5"><p class="jura cart" >Cart</p><br>
-    
-          <img src="" width="">
-          <p class="jura carti"> </p>
-          <img src="" width="">
-          <p class="jura carti"> </p>
-          <img src="" width="">
-          <p class="jura carti"> </p>
-          <img src="" width="">
-          <p class="jura carti"> </p>
-    
+
+      <div class="row chec">
+        <div class="col-75">
+          <div class="container">
+            <form action="/action_page.php">
+            
+              <div class="row">
+                <div class="col-50">
+                  <h3>Billing Address</h3>
+                  <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                  <input type="text" id="email" name="email" placeholder="john@example.com">
+                  <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                  <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                  <label for="city"><i class="fa fa-institution"></i> City</label>
+                  <input type="text" id="city" name="city" placeholder="New York">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="state">State</label>
+                      <input class="wow" type="text" id="state" name="state" placeholder="NY">
+                    </div>
+                    <div class="col-50">
+                      <label for="zip">Zip</label>
+                      <input class="wow" type="text" id="zip" name="zip" placeholder="10001">
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-50">
+                  <h3>Payment</h3>
+                  <label for="fname">Accepted Cards</label>
+                  <div class="icon-container">
+                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                  </div>
+                  <label for="cname">Name on Card</label>
+                  <input class="wow" type="text" id="cname" name="cardname" placeholder="John More Doe">
+                  <label for="ccnum">Credit card number</label>
+                  <input class="wow" type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                  <label for="expmonth">Exp Month</label>
+                  <input class="wow" type="text" id="expmonth" name="expmonth" placeholder="September">
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="expyear">Exp Year</label>
+                      <input class="wow" type="text" id="expyear" name="expyear" placeholder="2018">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv">CVV</label>
+                      <input class="wow" type="text" id="cvv" name="cvv" placeholder="352">
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <label>
+                <input class="wow" type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+              </label>
+              <input  type="submit" value="Continue to checkout" class="btn">
+            </form>
+          </div>
         </div>
-        <div class="col-1"></div>
-        <div class="col-1" style="border-left: solid 2px grey; margin-top: 50px;"></div>
-        <div class="col-3"><p class="jura cart" >Checkout</p><br>
-        <p class="jura carto">Your order consists of # items</p><br>
-    <button class="button button3 jura" >Place Order!</button>
+        <div class="col-25">
+          <div class="container">
+            <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+            <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+            <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+            <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+            <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+            <hr>
+            <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+          </div>
         </div>
-        <div class="col-1"></div>
-       </div>
-    
+      </div>
+
+
+
+
+
+
+
+
+
+
+      <div class="row foot" style="margin-top: 2%;">
+        <div class="col-4 " style="font-size: 200%;">
+          <div style="margin: 2vw 0vw 0vw 2.5vw;"><span style="font-family: Jacques Francois;">RJS</span><span class="jura"> Sports</span></div> <br>
+          <div style="padding-left: 2vw; padding-right: 2vw; padding-bottom: 2vw;"><img src="Img/instagram.png" width="40vw">
+          <img src="Img/tiktok.png" width="40vw">
+          <img src="Img/twitter.png" width="40vw">
+          <img src="Img/facebook.png" width="40vw">
+        </div>
+        </div>
+      
+        <div class="col-8">
+      <p class="jura" style="padding-top: 5vw; font-size: 150%;"><span style="padding-right: 5vw;">About Us</span> <span style="padding-right: 5vw;">Contact Us</span> <span style="padding-right: 5vw;">Customer Support</span> <span style="padding-right: 5vw;">Jobs</span> <span style="padding-right: 5vw;">Legal</span></p>
+      
+        </div>
+      </div>
+      
+      
+      <div class="row footoot">
+        <div class="col-4"></div>
+        <div class="col-4 jura"><p style="text-align: center; padding-top:0.5vw;">Copyright © 2023 RJS Sports Inc.</p></div>
+        <div class="col-4"></div>
+      </div>
     
 
        
