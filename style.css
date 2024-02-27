@@ -313,3 +313,20 @@ span.price {
 .card button:hover {
   opacity: 0.7;
 }
+.button1 {
+  background-color: #ff3d3d; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px 0px 25px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button1:hover {
+  background-color: #d63333;
+  color: white;
+}
