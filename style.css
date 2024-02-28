@@ -322,9 +322,10 @@ span.price {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 0px 0px 0px 25px;
+  margin: 0px 25px 0px 25px;
   cursor: pointer;
   border-radius: 4px;
+  
 }
 .button1:hover {
   background-color: #d63333;
